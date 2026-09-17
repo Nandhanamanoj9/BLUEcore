@@ -147,17 +147,6 @@ export function CNCMachine3D({ className = '', customImage = '' }) {
         </>
       )}
 
-      {/* High-end floating industrial badges */}
-      <div className="cnc-3d-badge-top" aria-hidden="true">
-        <span className="cnc-spec-pill">
-          <span className="cnc-spec-dot"></span>
-          <span>MTR 1325-H • 3-AXIS CNC</span>
-        </span>
-        <span className="cnc-spec-pill cnc-spec-accuracy">
-          <span>±0.02mm PRECISION</span>
-        </span>
-      </div>
-
       <div className="cnc-3d-tag" aria-hidden="true">
         <span className="cnc-tag-dot"></span>
         <span>{customImage ? 'High Precision CNC Router' : 'Interactive 3D Machine • Drag to Inspect'}</span>
