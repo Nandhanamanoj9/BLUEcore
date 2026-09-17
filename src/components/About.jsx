@@ -41,7 +41,7 @@ export function About() {
         </div>
         <div className="placeholder reveal" id="aboutImg">
           <PlaceholderArt
-            label="Add Photo — CNC craftsmanship"
+            label="CNC craftsmanship"
             image={aboutImage}
             patternOpacity={0.55}
           />
