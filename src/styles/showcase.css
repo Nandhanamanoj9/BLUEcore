@@ -1,0 +1,332 @@
+/* ---------- SHOWCASE (alternating) ---------- */
+.showcase-row {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 64px;
+  align-items: center;
+  margin-bottom: 104px;
+}
+
+.showcase-row:last-child {
+  margin-bottom: 0;
+}
+
+.showcase-row.rev .showcase-copy {
+  order: 2;
+}
+
+@media (max-width: 900px) {
+  .showcase-row {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    margin-bottom: 64px;
+  }
+  .showcase-row.rev .showcase-copy {
+    order: 0;
+  }
+}
+
+.showcase-copy .label {
+  margin-bottom: 14px;
+}
+
+.showcase-copy h3 {
+  font-size: clamp(28px, 3.5vw, 36px);
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--text-heading-primary);
+  line-height: 1.2;
+}
+
+.showcase-desc {
+  color: var(--text-body);
+  font-size: 16px;
+  line-height: 1.65;
+  max-width: 48ch;
+  margin-bottom: 22px;
+}
+
+.showcase-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.showcase-list li {
+  font-size: 14.5px;
+  color: var(--text-body);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.showcase-list li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: var(--color-teak);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.showcase-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.btn-spec-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(112, 69, 42, 0.06);
+  border: 1px solid rgba(112, 69, 42, 0.28);
+  color: var(--color-teak);
+  padding: 14px 22px;
+  border-radius: 4px;
+  font-size: 13.5px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-spec-trigger svg {
+  transition: transform 0.25s ease;
+  color: var(--color-teak);
+}
+
+.btn-spec-trigger:hover {
+  border-color: var(--color-teak);
+  color: #FFFFFF;
+  background: var(--color-teak);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(58, 36, 24, 0.15);
+}
+
+.btn-spec-trigger:hover svg {
+  transform: translateX(4px);
+  color: #FFFFFF;
+}
+
+/* Media Card & Legend Structure */
+.showcase-media-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.showcase-media {
+  aspect-ratio: 4/3;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid rgba(185, 130, 74, 0.22);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.45s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
+  position: relative;
+}
+
+.showcase-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.showcase-row:hover .showcase-media {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-teak);
+}
+
+.showcase-row:hover .showcase-media img {
+  transform: scale(1.025);
+}
+
+/* Crisp Visual Legend Strip */
+.showcase-card-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 2px 0;
+}
+
+.legend-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  letter-spacing: 0.03em;
+  color: var(--text-heading-secondary);
+  background: #FFFFFF;
+  border: 1px solid rgba(185, 130, 74, 0.25);
+  padding: 5px 13px;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 4px rgba(36, 24, 17, 0.05);
+}
+
+.legend-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-teak);
+}
+
+.legend-pill:hover {
+  background: var(--bg-soft);
+  border-color: var(--color-teak);
+  color: var(--color-teak);
+}
+
+/* ---------- TECHNICAL SPECS MODAL ---------- */
+.spec-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 7, 2, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 250;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: modalFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.spec-modal-card {
+  background: #2D1709 linear-gradient(180deg, #381D0B 0%, #261306 100%);
+  border: 1px solid rgba(236, 192, 120, 0.35);
+  border-radius: 8px;
+  max-width: 620px;
+  width: 100%;
+  padding: 36px;
+  position: relative;
+  box-shadow: 0 32px 64px -16px rgba(15, 7, 2, 0.9);
+  animation: modalSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modalSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.spec-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(25, 11, 3, 0.6);
+  border: 1px solid rgba(236, 192, 120, 0.3);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--gold-bright);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.spec-modal-close:hover {
+  background: var(--gold);
+  color: #190B03;
+  border-color: var(--gold-bright);
+}
+
+.spec-modal-tag {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--gold-light);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.spec-modal-header h3 {
+  font-size: 26px;
+  color: var(--gold-bright);
+  margin-bottom: 6px;
+  text-shadow: 0 2px 4px rgba(15, 7, 2, 0.85);
+}
+
+.spec-modal-subtitle {
+  font-size: 13.5px;
+  color: #D1B898;
+  margin-bottom: 18px;
+}
+
+.spec-modal-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.spec-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  background: rgba(20, 9, 3, 0.6);
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(236, 192, 120, 0.2);
+  margin-bottom: 28px;
+}
+
+@media (max-width: 600px) {
+  .spec-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .spec-modal-card {
+    padding: 24px;
+  }
+}
+
+.spec-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.spec-label {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
+.spec-val {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #F8EFE4;
+}
+
+.spec-modal-footer {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}

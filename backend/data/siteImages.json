@@ -1,0 +1,820 @@
+{
+  "slots": {
+    "hero_cnc": {
+      "id": "hero_cnc",
+      "section": "Hero",
+      "title": "Hero CNC Machine Visual",
+      "description": "Custom CNC machine or workshop image shown in the Hero section (falls back to interactive 3D model if empty)",
+      "defaultUrl": "",
+      "currentUrl": "",
+      "updatedAt": "2026-09-16T07:24:17.543Z"
+    },
+    "about_main": {
+      "id": "about_main",
+      "section": "About",
+      "title": "About Section Craftsmanship Photo",
+      "description": "Main workshop craftsmanship photo displayed in About BLU CORE",
+      "defaultUrl": "/images/about/cnc-craftsmanship.jpg",
+      "currentUrl": "/images/about/cnc-craftsmanship.jpg",
+      "updatedAt": "2026-09-16T07:24:17.543Z"
+    },
+    "showcase_wall_panels": {
+      "id": "showcase_wall_panels",
+      "section": "Showcase",
+      "title": "Showcase: Wall Panels & Hanging",
+      "description": "Hero feature photograph for Wall Panels & Hanging section",
+      "defaultUrl": "/images/showcase/wall-panels.jpg",
+      "currentUrl": "/images/showcase/wall-panels.jpg",
+      "updatedAt": "2026-09-16T07:24:17.543Z"
+    },
+    "showcase_door_design": {
+      "id": "showcase_door_design",
+      "section": "Showcase",
+      "title": "Showcase: Door Design",
+      "description": "Architectural entrance door carving showcase photograph",
+      "defaultUrl": "/images/showcase/door-design.jpg",
+      "currentUrl": "/images/showcase/door-design.jpg",
+      "updatedAt": "2026-09-16T07:24:17.543Z"
+    },
+    "showcase_ceiling_design": {
+      "id": "showcase_ceiling_design",
+      "section": "Showcase",
+      "title": "Showcase: Ceiling Design",
+      "description": "Recessed ceiling lattice patterns photograph",
+      "defaultUrl": "/images/showcase/ceiling-design.jpg",
+      "currentUrl": "https://iili.io/noHoifj.jpg",
+      "updatedAt": "2026-09-16T18:33:46.659Z"
+    }
+  },
+  "gallery": [
+    {
+      "id": "main_gallery-1789583901263-0",
+      "cat": "CUSTOM DESIGNS",
+      "label": "6",
+      "image": "https://iili.io/noHoifj.jpg",
+      "legend": [
+        "CUSTOM DESIGNS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:38:21.263Z",
+      "updatedAt": "2026-09-16T18:38:29.433Z"
+    },
+    {
+      "id": "main_gallery-1789583571803-0",
+      "cat": "WALL PANELS",
+      "label": "e",
+      "image": "https://iili.io/nodrA8P.jpg",
+      "legend": [
+        "WALL PANELS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:32:51.803Z"
+    },
+    {
+      "id": "main_gallery-1789583561972-0",
+      "cat": "WALL PANELS",
+      "label": "a",
+      "image": "https://iili.io/nodgPGR.jpg",
+      "legend": [
+        "WALL PANELS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:32:41.972Z"
+    },
+    {
+      "id": "main_gallery-1789583543247-0",
+      "cat": "WALL PANELS",
+      "label": "f",
+      "image": "https://iili.io/nodUOen.jpg",
+      "legend": [
+        "WALL PANELS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:32:23.247Z"
+    },
+    {
+      "id": "main_gallery-1789583531192-0",
+      "cat": "WALL PANELS",
+      "label": "c",
+      "image": "https://iili.io/nodSDlI.jpg",
+      "legend": [
+        "WALL PANELS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:32:11.192Z"
+    },
+    {
+      "id": "main_gallery-1789583519965-0",
+      "cat": "WALL PANELS",
+      "label": "b",
+      "image": "https://iili.io/nodS59n.jpg",
+      "legend": [
+        "WALL PANELS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:31:59.965Z"
+    },
+    {
+      "id": "main_gallery-1789583504632-0",
+      "cat": "WALL PANELS",
+      "label": "d",
+      "image": "https://iili.io/nod8Ekg.jpg",
+      "legend": [
+        "WALL PANELS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:31:44.632Z"
+    },
+    {
+      "id": "main_gallery-1789583488268-0",
+      "cat": "WALL PANELS",
+      "label": "g",
+      "image": "https://iili.io/nodvtXR.jpg",
+      "legend": [
+        "WALL PANELS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:31:28.268Z"
+    },
+    {
+      "id": "main_gallery-1789582645961-0",
+      "cat": "DOORS",
+      "label": "g",
+      "image": "https://iili.io/noJPEBf.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:17:25.961Z"
+    },
+    {
+      "id": "main_gallery-1789582636517-0",
+      "cat": "DOORS",
+      "label": "n",
+      "image": "https://iili.io/noJ6tJS.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:17:16.517Z"
+    },
+    {
+      "id": "main_gallery-1789582625270-0",
+      "cat": "DOORS",
+      "label": "l",
+      "image": "https://iili.io/noJ6Kts.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:17:05.270Z"
+    },
+    {
+      "id": "main_gallery-1789582614441-0",
+      "cat": "DOORS",
+      "label": "k",
+      "image": "https://iili.io/noJg6Wx.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:16:54.441Z"
+    },
+    {
+      "id": "main_gallery-1789582598150-0",
+      "cat": "DOORS",
+      "label": "i",
+      "image": "https://iili.io/noJSg29.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:16:38.150Z"
+    },
+    {
+      "id": "main_gallery-1789582588373-0",
+      "cat": "DOORS",
+      "label": "h",
+      "image": "https://iili.io/noJSxsV.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:16:28.373Z"
+    },
+    {
+      "id": "main_gallery-1789582577571-0",
+      "cat": "DOORS",
+      "label": "f",
+      "image": "https://iili.io/noJ8MAb.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:16:17.571Z"
+    },
+    {
+      "id": "main_gallery-1789582560534-0",
+      "cat": "DOORS",
+      "label": "e",
+      "image": "https://iili.io/noJvEjR.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:16:00.534Z"
+    },
+    {
+      "id": "main_gallery-1789582549569-0",
+      "cat": "DOORS",
+      "label": "d",
+      "image": "https://iili.io/noJkSrF.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:15:49.569Z"
+    },
+    {
+      "id": "main_gallery-1789582538826-0",
+      "cat": "DOORS",
+      "label": "c",
+      "image": "https://iili.io/noJkHiP.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:15:38.827Z"
+    },
+    {
+      "id": "main_gallery-1789582531278-0",
+      "cat": "DOORS",
+      "label": "b",
+      "image": "https://iili.io/noJe1Sa.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:15:31.279Z"
+    },
+    {
+      "id": "main_gallery-1789582520684-0",
+      "cat": "DOORS",
+      "label": "a",
+      "image": "https://iili.io/noJOZjp.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:15:20.684Z"
+    },
+    {
+      "id": "main_gallery-1789582504931-0",
+      "cat": "DOORS",
+      "label": "m",
+      "image": "https://iili.io/noJN6ml.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:15:04.931Z"
+    },
+    {
+      "id": "main_gallery-1789582485252-0",
+      "cat": "DOORS",
+      "label": "p",
+      "image": "https://iili.io/noJwjV9.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:14:45.252Z"
+    },
+    {
+      "id": "main_gallery-1789582472406-0",
+      "cat": "DOORS",
+      "label": "o",
+      "image": "https://iili.io/noJjtZ7.jpg",
+      "legend": [
+        "DOORS",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T18:14:32.406Z"
+    },
+    {
+      "id": "main_gallery-1789580403457-0",
+      "cat": "CEILING",
+      "label": "5",
+      "image": "https://iili.io/noHuHTN.jpg",
+      "legend": [
+        "CEILING",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T17:40:03.457Z"
+    },
+    {
+      "id": "main_gallery-1789580373460-0",
+      "cat": "CEILING",
+      "label": "4",
+      "image": "https://iili.io/noHTAdv.jpg",
+      "legend": [
+        "CEILING",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T17:39:33.460Z"
+    },
+    {
+      "id": "main_gallery-1789580351817-0",
+      "cat": "CEILING",
+      "label": "6",
+      "image": "https://iili.io/noHIbbS.jpg",
+      "legend": [
+        "CEILING",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T17:39:11.817Z"
+    },
+    {
+      "id": "main_gallery-1789580335539-0",
+      "cat": "CEILING",
+      "label": "3",
+      "image": "https://iili.io/noHIGRV.jpg",
+      "legend": [
+        "CEILING",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T17:38:55.539Z"
+    },
+    {
+      "id": "main_gallery-1789580308095-0",
+      "cat": "CEILING",
+      "label": "1",
+      "image": "https://iili.io/noHoifj.jpg",
+      "legend": [
+        "CEILING",
+        "Custom CNC Precision"
+      ],
+      "createdAt": "2026-09-16T17:38:28.095Z"
+    },
+    {
+      "id": "1",
+      "cat": "WALL PANELS",
+      "label": "Custom CNC Wall Panel",
+      "image": "/images/showcase/wall-panels.jpg",
+      "placeholder": false,
+      "legend": [
+        "Architectural Jali",
+        "Geometric Motif",
+        "Feature Wall Panel"
+      ]
+    },
+    {
+      "id": "2",
+      "cat": "DOORS",
+      "label": "Custom Door Pattern",
+      "image": "/images/showcase/door-design.jpg",
+      "placeholder": false,
+      "legend": [
+        "CNC Front Door Cutting",
+        "Solid Core Entrance",
+        "Modern Arch"
+      ]
+    },
+    {
+      "id": "3",
+      "cat": "WOOD CARVING",
+      "label": "Decorative Wood Carving",
+      "image": "https://iili.io/noJg6Wx.jpg",
+      "placeholder": false,
+      "legend": [
+        "Artisan Wood Carving",
+        "Relief Detailing",
+        "Teak Timber"
+      ],
+      "updatedAt": "2026-09-16T18:38:56.198Z"
+    },
+    {
+      "id": "4",
+      "cat": "CEILING",
+      "label": "Custom Ceiling Pattern",
+      "image": "https://iili.io/noHoYiJ.jpg",
+      "placeholder": false,
+      "legend": [
+        "Ceiling Lattice",
+        "Ambient Backlit Grid",
+        "Geometric Motif"
+      ],
+      "updatedAt": "2026-09-16T17:38:01.947Z"
+    },
+    {
+      "id": "5",
+      "cat": "3D PANELS",
+      "label": "3D Interior Panel",
+      "image": "/images/about/cnc-craftsmanship.jpg",
+      "placeholder": false,
+      "legend": [
+        "Wave 3D Panel",
+        "Living Room Wall",
+        "Multi-Axis Milling"
+      ]
+    }
+  ],
+  "galleries": {
+    "main_gallery": [
+      {
+        "id": "main_gallery-1789583901263-0",
+        "cat": "CUSTOM DESIGNS",
+        "label": "6",
+        "image": "https://iili.io/noHoifj.jpg",
+        "legend": [
+          "CUSTOM DESIGNS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:38:21.263Z",
+        "updatedAt": "2026-09-16T18:38:29.433Z"
+      },
+      {
+        "id": "main_gallery-1789583571803-0",
+        "cat": "WALL PANELS",
+        "label": "e",
+        "image": "https://iili.io/nodrA8P.jpg",
+        "legend": [
+          "WALL PANELS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:32:51.803Z"
+      },
+      {
+        "id": "main_gallery-1789583561972-0",
+        "cat": "WALL PANELS",
+        "label": "a",
+        "image": "https://iili.io/nodgPGR.jpg",
+        "legend": [
+          "WALL PANELS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:32:41.972Z"
+      },
+      {
+        "id": "main_gallery-1789583543247-0",
+        "cat": "WALL PANELS",
+        "label": "f",
+        "image": "https://iili.io/nodUOen.jpg",
+        "legend": [
+          "WALL PANELS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:32:23.247Z"
+      },
+      {
+        "id": "main_gallery-1789583531192-0",
+        "cat": "WALL PANELS",
+        "label": "c",
+        "image": "https://iili.io/nodSDlI.jpg",
+        "legend": [
+          "WALL PANELS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:32:11.192Z"
+      },
+      {
+        "id": "main_gallery-1789583519965-0",
+        "cat": "WALL PANELS",
+        "label": "b",
+        "image": "https://iili.io/nodS59n.jpg",
+        "legend": [
+          "WALL PANELS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:31:59.965Z"
+      },
+      {
+        "id": "main_gallery-1789583504632-0",
+        "cat": "WALL PANELS",
+        "label": "d",
+        "image": "https://iili.io/nod8Ekg.jpg",
+        "legend": [
+          "WALL PANELS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:31:44.632Z"
+      },
+      {
+        "id": "main_gallery-1789583488268-0",
+        "cat": "WALL PANELS",
+        "label": "g",
+        "image": "https://iili.io/nodvtXR.jpg",
+        "legend": [
+          "WALL PANELS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:31:28.268Z"
+      },
+      {
+        "id": "main_gallery-1789582645961-0",
+        "cat": "DOORS",
+        "label": "g",
+        "image": "https://iili.io/noJPEBf.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:17:25.961Z"
+      },
+      {
+        "id": "main_gallery-1789582636517-0",
+        "cat": "DOORS",
+        "label": "n",
+        "image": "https://iili.io/noJ6tJS.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:17:16.517Z"
+      },
+      {
+        "id": "main_gallery-1789582625270-0",
+        "cat": "DOORS",
+        "label": "l",
+        "image": "https://iili.io/noJ6Kts.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:17:05.270Z"
+      },
+      {
+        "id": "main_gallery-1789582614441-0",
+        "cat": "DOORS",
+        "label": "k",
+        "image": "https://iili.io/noJg6Wx.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:16:54.441Z"
+      },
+      {
+        "id": "main_gallery-1789582598150-0",
+        "cat": "DOORS",
+        "label": "i",
+        "image": "https://iili.io/noJSg29.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:16:38.150Z"
+      },
+      {
+        "id": "main_gallery-1789582588373-0",
+        "cat": "DOORS",
+        "label": "h",
+        "image": "https://iili.io/noJSxsV.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:16:28.373Z"
+      },
+      {
+        "id": "main_gallery-1789582577571-0",
+        "cat": "DOORS",
+        "label": "f",
+        "image": "https://iili.io/noJ8MAb.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:16:17.571Z"
+      },
+      {
+        "id": "main_gallery-1789582560534-0",
+        "cat": "DOORS",
+        "label": "e",
+        "image": "https://iili.io/noJvEjR.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:16:00.534Z"
+      },
+      {
+        "id": "main_gallery-1789582549569-0",
+        "cat": "DOORS",
+        "label": "d",
+        "image": "https://iili.io/noJkSrF.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:15:49.569Z"
+      },
+      {
+        "id": "main_gallery-1789582538826-0",
+        "cat": "DOORS",
+        "label": "c",
+        "image": "https://iili.io/noJkHiP.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:15:38.827Z"
+      },
+      {
+        "id": "main_gallery-1789582531278-0",
+        "cat": "DOORS",
+        "label": "b",
+        "image": "https://iili.io/noJe1Sa.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:15:31.279Z"
+      },
+      {
+        "id": "main_gallery-1789582520684-0",
+        "cat": "DOORS",
+        "label": "a",
+        "image": "https://iili.io/noJOZjp.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:15:20.684Z"
+      },
+      {
+        "id": "main_gallery-1789582504931-0",
+        "cat": "DOORS",
+        "label": "m",
+        "image": "https://iili.io/noJN6ml.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:15:04.931Z"
+      },
+      {
+        "id": "main_gallery-1789582485252-0",
+        "cat": "DOORS",
+        "label": "p",
+        "image": "https://iili.io/noJwjV9.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:14:45.252Z"
+      },
+      {
+        "id": "main_gallery-1789582472406-0",
+        "cat": "DOORS",
+        "label": "o",
+        "image": "https://iili.io/noJjtZ7.jpg",
+        "legend": [
+          "DOORS",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T18:14:32.406Z"
+      },
+      {
+        "id": "main_gallery-1789580403457-0",
+        "cat": "CEILING",
+        "label": "5",
+        "image": "https://iili.io/noHuHTN.jpg",
+        "legend": [
+          "CEILING",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T17:40:03.457Z"
+      },
+      {
+        "id": "main_gallery-1789580373460-0",
+        "cat": "CEILING",
+        "label": "4",
+        "image": "https://iili.io/noHTAdv.jpg",
+        "legend": [
+          "CEILING",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T17:39:33.460Z"
+      },
+      {
+        "id": "main_gallery-1789580351817-0",
+        "cat": "CEILING",
+        "label": "6",
+        "image": "https://iili.io/noHIbbS.jpg",
+        "legend": [
+          "CEILING",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T17:39:11.817Z"
+      },
+      {
+        "id": "main_gallery-1789580335539-0",
+        "cat": "CEILING",
+        "label": "3",
+        "image": "https://iili.io/noHIGRV.jpg",
+        "legend": [
+          "CEILING",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T17:38:55.539Z"
+      },
+      {
+        "id": "main_gallery-1789580308095-0",
+        "cat": "CEILING",
+        "label": "1",
+        "image": "https://iili.io/noHoifj.jpg",
+        "legend": [
+          "CEILING",
+          "Custom CNC Precision"
+        ],
+        "createdAt": "2026-09-16T17:38:28.095Z"
+      },
+      {
+        "id": "1",
+        "cat": "WALL PANELS",
+        "label": "Custom CNC Wall Panel",
+        "image": "/images/showcase/wall-panels.jpg",
+        "placeholder": false,
+        "legend": [
+          "Architectural Jali",
+          "Geometric Motif",
+          "Feature Wall Panel"
+        ]
+      },
+      {
+        "id": "2",
+        "cat": "DOORS",
+        "label": "Custom Door Pattern",
+        "image": "/images/showcase/door-design.jpg",
+        "placeholder": false,
+        "legend": [
+          "CNC Front Door Cutting",
+          "Solid Core Entrance",
+          "Modern Arch"
+        ]
+      },
+      {
+        "id": "3",
+        "cat": "WOOD CARVING",
+        "label": "Decorative Wood Carving",
+        "image": "https://iili.io/noJg6Wx.jpg",
+        "placeholder": false,
+        "legend": [
+          "Artisan Wood Carving",
+          "Relief Detailing",
+          "Teak Timber"
+        ],
+        "updatedAt": "2026-09-16T18:38:56.198Z"
+      },
+      {
+        "id": "4",
+        "cat": "CEILING",
+        "label": "Custom Ceiling Pattern",
+        "image": "https://iili.io/noHoYiJ.jpg",
+        "placeholder": false,
+        "legend": [
+          "Ceiling Lattice",
+          "Ambient Backlit Grid",
+          "Geometric Motif"
+        ],
+        "updatedAt": "2026-09-16T17:38:01.947Z"
+      },
+      {
+        "id": "5",
+        "cat": "3D PANELS",
+        "label": "3D Interior Panel",
+        "image": "/images/about/cnc-craftsmanship.jpg",
+        "placeholder": false,
+        "legend": [
+          "Wave 3D Panel",
+          "Living Room Wall",
+          "Multi-Axis Milling"
+        ]
+      }
+    ],
+    "materials_gallery": [
+      {
+        "id": "mat-2",
+        "cat": "MATERIALS",
+        "label": "Precision Multiwood Jali",
+        "image": "/images/showcase/wall-panels.jpg",
+        "legend": [
+          "Multiwood",
+          "Waterproof Core"
+        ]
+      },
+      {
+        "id": "mat-3",
+        "cat": "MATERIALS",
+        "label": "Architectural Door in Hardwood",
+        "image": "/images/showcase/door-design.jpg",
+        "legend": [
+          "Solid Hardwood",
+          "Brass Inlay"
+        ]
+      }
+    ],
+    "projects_gallery": []
+  }
+}

@@ -1,0 +1,69 @@
+:root {
+  /* --- Master Luxury Light Wooden Color Palette (Natural Honey Oak & Golden Teak) --- */
+  
+  /* Natural Light & Medium Wood Canvas (Hero, Services, Materials, Quote, Footer) */
+  --color-espresso: #E3D1BC;          /* Rich warm natural light-medium wood foundation */
+  --color-walnut: #D8C2A7;            /* Warm natural golden wood tone */
+  --bg-dark-section: #EBDCC8;         /* Warm natural light honey wood section background */
+  --bg-dark-card: #FAF4EB;            /* Elevated light natural wood card */
+  --bg-dark-card-hover: #EFE2CF;      /* Light wood card hover state */
+
+  /* Light Natural Wood Canvas (Projects Section, Light Wood Canvas) */
+  --bg-main: #F4EDE3;                 /* Light natural sanded wood canvas */
+  --bg-soft: #FAF5ED;                 /* Soft natural light birch section canvas */
+  --bg-card-light: #FFFFFF;           /* Crisp light card surface */
+  --bg-elevated: #FAF4EB;             /* Elevated light wood card */
+
+  /* Luminous Amber Brass & Warm Golden Teak (Logo, Accents, Primary Buttons, Active States) */
+  --color-teak: #B8772E;              /* Rich golden teak amber */
+  --color-oak: #C88A3B;               /* Warm amber honey carved tone */
+  --color-brass: #C58B3E;             /* Luminous warm brass / gold */
+  --color-brass-light: #DDAE68;       /* Radiant golden highlight */
+  --color-brass-glow: rgba(197, 139, 62, 0.35);
+
+  /* Warm Wood Borders & Dividers */
+  --color-light-oak: #DFC8AD;         /* Warm golden oak border */
+  --color-beige: #D5BC9C;             /* Natural wood caramel border */
+  --border-light: rgba(184, 119, 46, 0.24);  /* Soft golden teak border */
+  --border-subtle: rgba(184, 119, 46, 0.16); /* Clean structural division */
+  --border-dark: rgba(184, 119, 46, 0.28);   /* Border on wood panels */
+
+  /* High-Contrast Luxury Typography on Light Wood Canvas */
+  --text-heading-primary: #261307;    /* Deep Carved Timber — crisp and readable */
+  --text-heading-secondary: #3A1F0E;  /* Deep Walnut text */
+  --text-body: #583C25;               /* Warm Roasted Wood Grain */
+  --text-muted: #7D5F46;              /* Soft Bronze Wood Taupe */
+  --text-accent: #A66826;             /* Golden Teak Accent */
+  --text-highlight: #C58B3E;          /* Luminous Gold */
+
+  /* Harmonized Typography for Feature Wood Sections */
+  --text-on-dark-heading: #261307;    /* Deep Carved Timber */
+  --text-on-dark-body: #583C25;       /* Warm Wood Grain */
+  --text-on-dark-secondary: #70523A;  /* Muted Warm Wood */
+  --text-on-dark-accent: #A66826;     /* Golden Teak */
+
+  /* Semantic Compatibility Tokens */
+  --ink: #261307;
+  --ink-soft: #583C25;
+  --ink-muted: #7D5F46;
+  --paper: #261307;
+  --paper-dim: #FAF5ED;
+  --paper-text: #261307;
+  --gold: #C58B3E;
+  --gold-light: #DDAE68;
+  --gold-bright: #FAF5ED;
+  --gold-deep: #B8772E;
+  --line: rgba(184, 119, 46, 0.24);
+  --line-warm: #DFC8AD;
+  --line-gold-focus: #C58B3E;
+
+  /* Tactile Craftsman Wood Shadows */
+  --shadow-sm: 0 2px 8px rgba(45, 22, 9, 0.05);
+  --shadow-md: 0 8px 24px -4px rgba(45, 22, 9, 0.08), 0 2px 6px -1px rgba(45, 22, 9, 0.03);
+  --shadow-lg: 0 20px 48px -12px rgba(45, 22, 9, 0.12);
+  --shadow-dark: 0 16px 40px -8px rgba(45, 22, 9, 0.14);
+
+  /* Typography */
+  --serif: 'Fraunces', serif;
+  --sans: 'Inter', sans-serif;
+}

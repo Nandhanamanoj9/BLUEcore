@@ -1,0 +1,70 @@
+/* ---------- WHY CHOOSE ---------- */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+.why-cell {
+  background: #FFFFFF;
+  border: 1px solid rgba(185, 130, 74, 0.22);
+  border-radius: 6px;
+  padding: 34px 28px;
+  position: relative;
+  box-shadow: 0 4px 14px rgba(36, 24, 17, 0.04);
+  transition: transform .35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow .35s cubic-bezier(0.16, 1, 0.3, 1), border-color .3s ease;
+}
+
+.why-cell:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px -6px rgba(58, 36, 24, 0.12);
+  border-color: var(--color-teak);
+  z-index: 2;
+}
+
+.why-num {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--color-teak);
+  font-weight: 600;
+  margin-bottom: 16px;
+  transition: transform .3s cubic-bezier(0.16, 1, 0.3, 1), color .3s ease;
+  display: inline-block;
+}
+
+.why-cell:hover .why-num {
+  transform: translateX(4px);
+  color: var(--color-oak);
+}
+
+.why-cell h3 {
+  font-size: 19px;
+  color: var(--text-heading-primary);
+  margin-bottom: 10px;
+  font-weight: 500;
+  transition: transform .3s ease;
+}
+
+.why-cell:hover h3 {
+  transform: translateX(2px);
+}
+
+.why-cell p {
+  font-size: 14.5px;
+  color: var(--text-body);
+  line-height: 1.6;
+}

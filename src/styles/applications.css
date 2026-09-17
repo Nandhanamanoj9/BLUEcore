@@ -1,0 +1,156 @@
+/* ---------- APPLICATIONS ---------- */
+#projects {
+  background: var(--bg-main, #F7F1E6);
+}
+
+.app-category-group {
+  margin-bottom: 42px;
+}
+
+.app-category-group:last-child {
+  margin-bottom: 0;
+}
+
+.app-category-title {
+  font-family: var(--serif);
+  font-size: 24px;
+  color: var(--text-heading-primary, #221208);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  letter-spacing: -0.01em;
+}
+
+.app-category-title::before {
+  content: "";
+  width: 24px;
+  height: 2px;
+  background: var(--color-teak, #B87B31);
+}
+
+.app-scroll {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  scrollbar-width: thin;
+}
+
+.app-card {
+  flex: 0 0 220px;
+  aspect-ratio: 3/4;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid rgba(184, 123, 49, 0.22);
+  background: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(34, 18, 8, 0.05);
+  transition: transform .35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow .35s cubic-bezier(0.16, 1, 0.3, 1), border-color .3s;
+  cursor: pointer;
+}
+
+.app-card:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 14px 32px rgba(34, 18, 8, 0.12);
+  border-color: var(--color-teak);
+}
+
+.app-card svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .18;
+  color: var(--color-oak);
+  transition: transform .6s cubic-bezier(0.16, 1, 0.3, 1), opacity .4s ease;
+}
+
+.app-card:hover svg {
+  opacity: .35;
+  transform: scale(1.06);
+}
+
+.app-card span {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  color: var(--text-heading-primary, #221208);
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 2;
+  transition: transform .35s ease, color .3s ease;
+}
+
+.app-card:hover span {
+  transform: translateY(-2px);
+  color: var(--color-teak);
+}
+
+/* Dynamic Admin-Managed Image in Project Cards */
+.app-card-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .5s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 1;
+}
+
+.app-card:hover .app-card-img {
+  transform: scale(1.06);
+}
+
+.app-card.has-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(22, 11, 5, 0.04) 0%, rgba(22, 11, 5, 0.75) 100%);
+  z-index: 2;
+  pointer-events: none;
+  transition: background .3s ease;
+}
+
+.app-card.has-image:hover::after {
+  background: linear-gradient(180deg, rgba(22, 11, 5, 0.12) 0%, rgba(22, 11, 5, 0.85) 100%);
+}
+
+.app-card.has-image span {
+  color: #FAF5EE;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
+  z-index: 3;
+}
+
+.app-card.has-image:hover span {
+  color: var(--color-brass-light, #E8C288);
+}
+
+/* Circular Arrow Zoom Badge (as in Reference Mockup) */
+.app-card-zoom-badge {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(36, 19, 10, 0.85);
+  backdrop-filter: blur(4px);
+  color: #FAF5EE;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(212, 163, 89, 0.35);
+  transition: transform .25s cubic-bezier(0.16, 1, 0.3, 1), background .25s ease;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.app-card:hover .app-card-zoom-badge {
+  transform: scale(1.12);
+  background: var(--color-teak, #B87B31);
+  border-color: #E8C288;
+}
